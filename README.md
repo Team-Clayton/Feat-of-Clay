@@ -1,2 +1,4 @@
 # Feat of Clay
-Feat of Clay - Main Repo
+
+Naming Convention:
+https://github.com/Allar/ue4-style-guide
