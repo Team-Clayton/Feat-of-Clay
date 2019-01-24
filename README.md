@@ -43,12 +43,6 @@ Game assets in Unreal Engine formats, `.uasset` and `.umap`. Only those two file
 
 `/RawContent` is a directory where you store assets in their source formats, in contrast to `/Content`, where assets are stored in the engine format (after the import). Having an asset in a source format is useful when you're still making updates to it. It may be a good idea to also have separate repos for managing work-in-progress assets (maybe in smaller collections or even idividually).
 
-## How to use
-
-1. Set up `git` and `git-lfs`.
-2. Copy `.gitignore` and `.gitattributes` to your project.
-3. Change the `Game.uproject` in `.gitignore` to your `.uproject` file name.
-
 ## Caveats
 
 Take special care when working with plugins. Plugin structure is not very well defined, so you will be able to mess the git repo up with big files if you commit them to a plugin directory.
